@@ -4,20 +4,62 @@ color: #2E2F42;
 }
 
 button {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .middle-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 }
 
 .text-page {
 font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+letter-spacing: 0.02em;
 }
 
-/* Header */
+a {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+/******************************* Logo */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ .iris-logo {
+    color: #4D5AE5;
+ }
+
+ .nav-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
+
+/******************************* footer */
+
+ .text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+ }
