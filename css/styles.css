@@ -21,6 +21,8 @@ font-family: inherit;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-color);
 }
 
 .text-page {
@@ -61,11 +63,19 @@ text-transform: uppercase;
 color: var(--main-color)
 }
 
+.footer-logo {
+    color: #f4f4fd;
+}
+
 .nav-title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.navigation {
+    color: var(--main-color);
 }
 
 .navigation:hover,
@@ -110,7 +120,8 @@ color: var(--backgrount-color)
 }
 
 .categories {
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    color: var(--main-color);
 }
 
 .section-title {
@@ -120,14 +131,16 @@ color: var(--backgrount-color)
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--main-color);
 }
 
 .members {
     background-color: #F4F4FD;
+    color: var(--main-color);
 }
 
 .member {
-    background-color: var(--backgrount-color)
+    background-color: var(--backgrount-color);
     letter-spacing: 0.02em;
 }
 
