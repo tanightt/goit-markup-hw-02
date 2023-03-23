@@ -1,14 +1,15 @@
-:root{
+:root {
 --main-color: #2E2F42;
 --text-color: #434455;
 --primary-brand: #4D5AE5;
 --text-selection: #404BBF;
+--backgrount-color:#FFFFFF;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
-background-color: #FFFFFF;
-color: #434455;;
+background-color: var(--backgrount-color);
+color: #434455;
 }
 
 button {
@@ -89,7 +90,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--backgrount-color)
 }
 
 .hero-button {
@@ -100,7 +101,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 background: var(--primary-brand);
-color: #FFFFFF;
+color: var(--backgrount-color)
 }
 
 .hero-button:focus,
@@ -126,7 +127,7 @@ color: #FFFFFF;
 }
 
 .member {
-    background-color: #FFFFFF;
+    background-color: var(--backgrount-color)
     letter-spacing: 0.02em;
 }
 
@@ -148,7 +149,7 @@ color: #FFFFFF;
 .button:hover,
 .button:focus {
     background-color: var(--text-selection);
-    color: #FFFFFF;
+    color: var(--backgrount-color)
 }
 
 /******************************* footer */
