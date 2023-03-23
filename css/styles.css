@@ -1,13 +1,14 @@
 :root{
-    --main-color: #2E2F42;
-    --text-color: #434455;
-    --primary-brand: #4D5AE5;
-    --text-selection: #404BBF;
+--main-color: #2E2F42;
+--text-color: #434455;
+--primary-brand: #4D5AE5;
+--text-selection: #404BBF;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
-color: var(--main-color);
+background-color: #FFFFFF;
+color: #434455;;
 }
 
 button {
@@ -26,6 +27,7 @@ font-size: 16px;
 line-height: 1.5;
 color: var(--text-color);
 letter-spacing: 0.02em;
+font-style: normal;
 }
 
 a {
@@ -38,21 +40,24 @@ text-decoration: inherit;
 list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /******************************* Logo */
 
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.7;
-color: var(--main-color);
+line-height: 1.17;
+color: var(--primary-brand);
 letter-spacing: 0.03em;
 text-transform: uppercase;
-text-decoration: none;
 }
 
-.iris-logo {
-color: var(--primary-brand)
+.part-logo {
+color: var(--main-color)
 }
 
 .nav-title {
@@ -62,8 +67,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.nav-title:hover,
-.nav-title:focus {
+.navigation:hover,
+.navigation:focus {
     color: var(--text-selection);
 }
 
@@ -75,12 +80,15 @@ letter-spacing: 0.02em;
 /******************************* main */
 
 .hero {
+background-color: var(--main-color);
+}
+
+.hero-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-background-color: var(--main-color);
 color: #FFFFFF;
 }
 
@@ -100,28 +108,41 @@ color: #FFFFFF;
     background-color: var(--text-selection);
 }
 
+.categories {
+    letter-spacing: 0.02em
+}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
+.members {
+    background-color: #F4F4FD;
+}
+
+.member {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
 .buttons {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
 }
 
 .button {
     background-color: #F4F4FD;
     color: var(--primary-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -132,10 +153,13 @@ color: #FFFFFF;
 
 /******************************* footer */
 
+.footer {
+    background-color: var(--main-color);
+}
+
  .text-footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background: var(--main-color);
     color: #F4F4FD;
  }
