@@ -1,10 +1,18 @@
+:root{
+    --main-color: #2E2F42;
+    --text-color: #434455;
+    --primary-brand: #4D5AE5;
+    --text-selection: #404BBF;
+}
+
 body {
 font-family: 'Roboto', sans-serif;
-color: #2E2F42;
+color: var(--main-color);
 }
 
 button {
 cursor: pointer;
+font-family: inherit;
 }
 
 .middle-title {
@@ -14,52 +22,120 @@ line-height: 1.2;
 }
 
 .text-page {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--text-color);
 letter-spacing: 0.02em;
 }
 
 a {
-    font-family: inherit;
-    color: inherit;
-    text-decoration: inherit;
+font-family: inherit;
+color: inherit;
+text-decoration: inherit;
 }
 
 .list {
-    list-style: none;
+list-style: none;
 }
 
 /******************************* Logo */
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.7;
-    color: #2E2F42;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.7;
+color: var(--main-color);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
 }
- .iris-logo {
-    color: #4D5AE5;
- }
 
- .nav-title {
+.iris-logo {
+color: var(--primary-brand)
+}
+
+.nav-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.nav-title:hover,
+.nav-title:focus {
+    color: var(--text-selection);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--text-selection)
+}
+
+/******************************* main */
+
+.hero {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+background-color: var(--main-color);
+color: #FFFFFF;
+}
+
+.hero-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+background: var(--primary-brand);
+color: #FFFFFF;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--text-selection);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.buttons {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
- }
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.button {
+    background-color: #F4F4FD;
+    color: var(--primary-brand);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--text-selection);
+    color: #FFFFFF;
+}
 
 /******************************* footer */
 
  .text-footer {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background: var(--main-color);
     color: #F4F4FD;
  }
